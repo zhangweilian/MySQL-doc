@@ -44,3 +44,7 @@ create database stu;
 ```c
 show databases ;(注意有s)
 ```
+3.创建表
+```c
+show databases ;(注意有s)
+```
