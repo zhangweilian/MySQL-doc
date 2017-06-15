@@ -42,5 +42,5 @@ create database stu;
 ```
 2.显示数据库
 ```c
-show databases (注意有s)
+show databases ;(注意有s)
 ```
