@@ -85,23 +85,21 @@ show databases ;(注意有s)
 ```
 3.创建表
 ```sql
-create table information(
-     no int(14) primary key,name varchar(20) not null,sex varchar(20) not null,age int(14) not null,sdept varchar(20) not null
-     )
-     ;
+create table information( no int(14) primary key,name varchar(20) not null,sex varchar(20) not null,age int(14) not null,sno int(14) not null,FOREIGN KEY (sno) REFERENCES school (sno)
+    )character set = utf8;
+     
 create table school(
-     sno int(14) primary key,sdept varchar(20) not null
-     )
-     ;
-create table score(
-     no int(14) not null, cno int(14) primary key,cname varchar(20) not null,cgrade int(14) not null
-     )
-     ;
+     sno int(14) primary key,sdept varchar(20) not null，smajor varchar(20) 
+     )character set = utf8;
+     
+ create table score(
+    no int(14) not null,cno int(14) primary key,cname varchar(20) not null,cgrade int(14) not null,foreign key (no) references information (no)
+     )character set = utf8;
 
 ```
 4.在表中插入数据
 ```sql
-insert into information values(0701,'zhangsan','nv',20,'CS');
+insert into information values(0701,'张三','女',20,1);
 ```
 5.查询表中数据
 ```sql
