@@ -35,6 +35,13 @@ sudo apt-get update
 sudo apt-get install tasksel
 sudo tasksel
 ```
+# 数据库设计
+表中数据结构如图：
+
+![Image of information](img/information.png)
+![Image of school](img/school.png)
+![Image of score](img/score.png)
+
 # sql数据库中的各种命令
 1.创建数据库
 ```c
@@ -60,9 +67,5 @@ create table score(
      ;
 
 ```
-表中数据结构如图：
-![Image of information](img/information.png)
-![Image of school](img/school.png)
-![Image of score](img/score.png)
 
 
