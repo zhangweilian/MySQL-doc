@@ -46,5 +46,20 @@ show databases ;(注意有s)
 ```
 3.创建表
 ```c
-show databases ;(注意有s)
+create table information(
+     no int(14) primary key,name varchar(20) not null,sex varchar(20) not null,age int(14) not null,sdept varchar(20) not null
+     )
+     ;
+create table school(
+     sno int(14) primary key,sdept varchar(20) not null
+     )
+     ;
+create table score(
+     no int(14) not null, cno int(14) primary key,cname varchar(20) not null,cgrade int(14) not null
+     )
+     ;
+
 ```
+表中数据结构如图：
+![Image of Yaktocat](E:\information.png)
+
