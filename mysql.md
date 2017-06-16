@@ -39,12 +39,15 @@ sudo tasksel
 * information表中数据信息如图：
 
 ![Image of information](img/information.png)
+
 * information表数据结构：
-|中文名称 | 表名    | 字段属性 | 默认值 | 备注  |
-|--------|---------|----------|-------|------|
+|中文名称 | 表名     | 字段属性 | 默认值 | 备注  |
+|--------|---------|---------|-------|-------|
 
-
+* school表中数据信息如图：
 ![Image of school](img/school.png)
+
+* score表中数据信息如图：
 ![Image of score](img/score.png)
 
 # sql数据库中的各种命令
