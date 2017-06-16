@@ -115,4 +115,9 @@ update information set name='Mary' where no=701;
 ```sql
 drop table information;
 ```
+8.删除表中数据
+```sql
+delete from information where no=701;
+```
+ 
 
