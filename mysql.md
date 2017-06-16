@@ -41,26 +41,48 @@ sudo tasksel
 ![Image of information](img/information.png)
 
 * information表数据结构：
+
 |中文名称 | 表名     | 字段属性 | 默认值 | 备注  |
 |--------|---------|---------|-------|-------|
+|学号|no|int （14）|000|主键 不能为null|
+|姓名|name|varchar （20）||不能为null|
+|性别|sex|varchar （20）||不能为null|
+|年龄|age|varchar （20）||不能为null|
+|系名|sdept|varchar （20）||不能为null|
+
 
 * school表中数据信息如图：
 ![Image of school](img/school.png)
+* school表数据结构：
+
+|中文名称 | 表名     | 字段属性 | 默认值 | 备注  |
+|--------|---------|---------|-------|-------|
+|系号|sno|int （14）|000|主键 不能为null|
+|系名|sdept|varchar （20）||不能为null|
+
 
 * score表中数据信息如图：
 ![Image of score](img/score.png)
+* score表数据结构：
+
+|中文名称 | 表名     | 字段属性 | 默认值 | 备注  |
+|--------|---------|---------|-------|-------|
+|学号|no|int （14）|000|不能为null|
+|课程号|cno|int （14）|000|主键 不能为null|
+|课程名|cname|varchar （20）||不能为null|
+|课程成绩|cgrade|varchar （20）||不能为null|
 
 # sql数据库中的各种命令
 1.创建数据库
-```c
+```sql
 create database stu;
 ```
 2.显示数据库
-```c
+```sql
 show databases ;(注意有s)
 ```
 3.创建表
-```c
+```sql
 create table information(
      no int(14) primary key,name varchar(20) not null,sex varchar(20) not null,age int(14) not null,sdept varchar(20) not null
      )
