@@ -52,6 +52,7 @@ sudo tasksel
 
 
 * school表中数据信息如图：
+
 ![Image of school](img/school.png)
 * school表数据结构：
 
@@ -62,6 +63,7 @@ sudo tasksel
 
 
 * score表中数据信息如图：
+
 ![Image of score](img/score.png)
 * score表数据结构：
 
@@ -97,5 +99,20 @@ create table score(
      ;
 
 ```
-
+4.在表中插入数据
+```sql
+insert into information values(0701,'zhangsan','nv',20,'CS');
+```
+5.查询表中数据
+```sql
+select * from information;
+```
+6.修改表中数据
+```sql
+update information set name='Mary' where no=701;
+```
+7.删除表
+```sql
+drop table information;
+```
 
