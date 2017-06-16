@@ -36,9 +36,14 @@ sudo apt-get install tasksel
 sudo tasksel
 ```
 # 数据库设计
-表中数据结构如图：
+* information表中数据信息如图：
 
 ![Image of information](img/information.png)
+* information表数据结构：
+|中文名称 | 表名    | 字段属性 | 默认值 | 备注  |
+|--------|---------|----------|-------|------|
+
+
 ![Image of school](img/school.png)
 ![Image of score](img/score.png)
 
