@@ -61,5 +61,8 @@ create table score(
 
 ```
 表中数据结构如图：
-![Image of Yaktocat](E:\information.png)
+![Image of information](E:\information.png)
+![Image of school](E:\information.png)
+![Image of score](E:\information.png)
+
 
